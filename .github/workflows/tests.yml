@@ -20,5 +20,5 @@ jobs:
       - run: node demo.js
       - uses: actions/upload-artifact@v2
         with:
-          name: test-artifacts
-          path: path/to/artifacts
+          name: screenshots
+          path: screenshot*.png
